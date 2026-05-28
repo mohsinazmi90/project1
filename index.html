@@ -33,6 +33,12 @@
         th {
             background-color: #f2f2f2;
         }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        
     </style>
 
     <table>
@@ -51,6 +57,16 @@
             <td>$15.00</td>
         </tr>
     </table>
+
+    <form action="/registeration" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username">
+
+        <label for="password">Password:</label>
+        <input type="password" name="password">
+
+        <button type="submit">Register</button>
+    </form>
 </body>
 
 </html>
